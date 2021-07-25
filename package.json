@@ -1,0 +1,22 @@
+{
+    "name": "annaelleemery_4_04072021",
+    "version": "1.0.0",
+    "description": "Annaelleemery_4_04072021",
+    "main": "index.js",
+    "scripts": {
+      "sass": "sass --watch ./scss/index.scss:css/index.css ./scss/index-contact.scss:css/index-contact.css"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AnnaelleEMERY/AnnaelleEmery_4_04072021.git"
+    },
+    "dependencies": {
+      "bootstrap": "4.2.1"
+    },
+    "author": "Annaelle EMERY",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AnnaelleEMERY/AnnaelleEmery_4_04072021/issues"
+    },
+    "homepage": "https://github.com/AnnaelleEMERY/AnnaelleEmery_4_04072021#readme"
+  }
