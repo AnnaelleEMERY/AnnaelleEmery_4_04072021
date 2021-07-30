@@ -1,3 +1,356 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  color: #575757;
+}
 
+h1 {
+  color: #333333;
+  font-size: 1.5rem;
+}
+@media only screen and (min-width: 1920px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  color: #333333;
+  font-size: 1.5rem;
+}
+@media only screen and (min-width: 1920px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+@media only screen and (min-width: 1920px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+p {
+  font-size: 1rem;
+}
+@media only screen and (min-width: 1920px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  p {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  ul {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  ul {
+    font-size: 1.5rem;
+  }
+}
+
+header li {
+  list-style-type: none;
+}
+
+a {
+  color: #575757;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+header .header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+}
+@media only screen and (min-width: 1280px) {
+  header .header-row {
+    width: 1280px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  header .header-row {
+    width: 80%;
+  }
+}
+header .header-row_logo-and-title {
+  width: 15rem;
+}
+header .header-row_menu {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+header .header-row_menu_ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0;
+}
+header .header-row_menu_ul li {
+  margin-bottom: 1rem;
+}
+@media only screen and (min-width: 480px) {
+  header .header-row_menu_ul li {
+    margin: 0 1rem 0 0;
+  }
+}
+
+footer {
+  background-color: #F3976C;
+  color: #FBE0D3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+footer li {
+  margin-bottom: 1rem;
+}
+footer .footer-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+footer .footer-row_text {
+  text-align: center;
+}
+@media only screen and (min-width: 480px) {
+  footer .footer-row_nav-blocs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  footer .footer-row_nav-blocs {
+    width: 1280px;
+  }
+}
+footer .footer-row_nav-blocs_column:nth-child(3) {
+  padding-top: 2rem;
+}
+footer .footer-row_social-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+@media only screen and (min-width: 480px) {
+  footer .footer-row_social-logos {
+    justify-content: center;
+  }
+}
+footer .footer-row_social-logos_bloc-logo_logo {
+  font-size: 2rem;
+  color: #FBE0D3;
+}
+@media only screen and (min-width: 480px) {
+  footer .footer-row_social-logos_bloc-logo_logo {
+    margin-right: 2rem;
+  }
+}
+footer .footer-row_social-logos_bloc-logo_logo:hover {
+  color: #ffffff;
+}
+
+.button-primary {
+  border: none;
+  color: #ffffff;
+  background-color: #F3976C;
+  margin: 1rem 0 0 0;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 0.9rem;
+  z-index: 1;
+}
+@media only screen and (min-width: 1920px) {
+  .button-primary {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  .button-primary {
+    padding: 1.3rem 1.8rem 1.3rem 1.8rem;
+  }
+}
+.button-primary:hover {
+  cursor: pointer;
+  background-color: #FBE0D3;
+  color: #F3976C;
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url(../img/image-de-présentation-La-Chouette-Agence.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  position: relative;
+}
+.banner::after {
+  content: "";
+  background-image: url(../img/texture-papier.png);
+  opacity: 0.5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.banner_h2 {
+  color: #F3976C;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.5rem;
+}
+@media only screen and (min-width: 1920px) {
+  .banner_h2 {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  .banner_h2 {
+    font-size: 2.5rem;
+  }
+}
+.banner_text {
+  text-align: center;
+  color: #F3976C;
+}
+
+.square {
+  font-weight: 800;
+  font-size: 0.9rem;
+  border-radius: 0px;
+  border-top: 2px solid #E3E3E3;
+  border-left: 2px solid #E3E3E3;
+  border-right: 2px solid #979797;
+  border-bottom: 2px solid #979797;
+}
+@media only screen and (min-width: 1920px) {
+  .square {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  .square {
+    font-size: 1.4rem;
+  }
+}
+
+.square:hover {
+  border: 2px solid #FBE0D3;
+}
+
+.banner2 {
+  background-image: url(../img/image-de-présentation-La-Chouette-Agence-2.bmp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+.banner2::after {
+  content: "";
+  background-image: url(../img/texture-papier.png);
+  opacity: 0.5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.banner2_h2 {
+  color: #F3976C;
+  font-weight: 400;
+  text-align: center;
+}
+
+.bloc-formulaire {
+  padding: 3rem 1rem;
+}
+
+.forms {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+@media only screen and (min-width: 1920px) {
+  .forms {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  .forms {
+    font-size: 1.8rem;
+  }
+}
+
+.contacts {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
 
 /*# sourceMappingURL=index-contact.css.map */

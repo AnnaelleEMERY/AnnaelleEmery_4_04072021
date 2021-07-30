@@ -1,0 +1,157 @@
+@import "variables";
+@import "bases";
+@import "components";
+
+@media #{$breakpoint-phone} {
+
+    .banner_logo{
+            width: 6rem;
+            margin-bottom: 0.5rem;
+            z-index: 1;
+    }
+
+    .banner_title{
+            color: $primary-color;
+            z-index: 1;
+    }
+
+    .div-presentation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+
+        &_columns {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 90%;
+            padding: 2rem 0 2rem 0;
+
+            @media #{$breakpoint-desktop} {
+                width: 60%;
+            }
+
+            &_last-text_text {
+                font-style: italic;
+            }
+            &_last-text_Maxime-Guibard{
+                font-size: 0.8rem;
+                font-weight: 400;
+                margin-top: -0.5rem;
+            }
+
+            &_three-columns {
+                margin: 2rem 0 2rem 0;
+
+                @media #{$breakpoint-tablet-mid} {
+                    display: flex;
+                    flex-direction: row;
+                }
+
+                &_column:nth-child(2) {
+                    margin: 5rem 0 5rem 0;
+
+                    @media #{$breakpoint-tablet-mid} {
+                        margin: auto;
+                    }
+                }
+
+                &_column{
+                    width: 100%;
+
+                @media #{$breakpoint-tablet-mid} {
+                    padding: 0 1rem 0 1rem;
+                }
+
+                    &_logo {
+                    width: 7rem;
+                    }
+
+                    &_title {
+                    font-size: 1.1rem;
+                    text-transform: uppercase;
+
+                    @media #{$breakpoint-TV-mid} {
+                        font-size: 1.6rem;                    }
+                    }
+
+                    &_text{
+                    font-size: auto;
+                    font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+
+    .banner2_contain{
+        background: $container-contact-color;
+        padding: 1.5rem;
+        text-align: center;
+        z-index: 1;
+        margin: 3rem 0;
+
+        @media #{$breakpoint-desktop} {
+            width: 45%;
+        }
+
+        &_text{
+            color: $white-color;
+            font-weight: 300;
+        }
+
+        &_link{
+            color: $white-color;
+            text-decoration: underline;
+        }
+    }
+
+    .div-presentation-posts{
+        background-image: url(../img/fond-lignes.png);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+
+        &_columns {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 90%;
+
+            @media #{$breakpoint-desktop} {
+                width: 50%;
+            }
+
+            &_column {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 3rem 0;
+
+                @media #{$breakpoint-tablet-mid} {
+                    flex-direction: row;
+                }
+
+                &_posts{
+                    margin-bottom: 2rem;
+                    width: 50%;
+                    padding: 0 2rem;
+    
+                    &_image{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+}

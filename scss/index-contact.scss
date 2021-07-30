@@ -1,0 +1,26 @@
+@import "variables";
+@import "bases";
+@import "components";
+
+.bloc-formulaire{
+    padding: 3rem 1rem;
+}
+
+.forms{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+
+    @media #{$breakpoint-TV-min} {
+        font-size: 1.5rem;
+    }
+
+    @media #{$breakpoint-TV-max} {
+        font-size: 1.8rem;
+    }
+}
+
+.contacts{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
