@@ -134,7 +134,7 @@ header .header-row_menu_ul li {
 }
 @media only screen and (min-width: 480px) {
   header .header-row_menu_ul li {
-    margin: 0 1rem 0 0;
+    margin: 0 1.5rem 0 0;
   }
 }
 
@@ -235,6 +235,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   background-image: url(../img/image-de-présentation-La-Chouette-Agence.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -303,6 +304,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   background-image: url(../img/image-de-présentation-La-Chouette-Agence-2.bmp);
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -328,8 +330,27 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   text-align: center;
 }
 
+.presentation_bloc-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
 .bloc-formulaire {
   padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  width: 90%;
+  padding: 2rem 0 2rem 0;
+}
+@media only screen and (min-width: 1280px) {
+  .bloc-formulaire {
+    width: 60%;
+  }
 }
 
 .forms {

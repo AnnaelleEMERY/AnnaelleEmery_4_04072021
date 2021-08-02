@@ -2,8 +2,26 @@
 @import "bases";
 @import "components";
 
+.presentation_bloc-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
 .bloc-formulaire{
     padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 90%;
+    padding: 2rem 0 2rem 0;
+
+    @media #{$breakpoint-desktop} {
+        width: 60%;
+    }
 }
 
 .forms{
