@@ -141,10 +141,6 @@ footer{
     align-items: center;
     padding: 1rem;
 
-    li{
-        margin-bottom: 1rem;
-    }
-
     .footer-row{
         display: flex;
         flex-direction: column;
@@ -154,23 +150,6 @@ footer{
 
         &_text{
             text-align: center;
-        }
-
-        &_nav-blocs{
-            @media #{$breakpoint-tablet-min} {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: flex-start;
-                width: 100%;
-            }
-            @media #{$breakpoint-desktop} {
-                 width: 1280px;
-            }
-
-            &_column:nth-child(3) {
-                padding-top: 2rem;
-            }
         }
 
         &_social-logos{

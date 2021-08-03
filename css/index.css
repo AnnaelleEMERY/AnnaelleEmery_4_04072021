@@ -149,9 +149,6 @@ footer {
   align-items: center;
   padding: 1rem;
 }
-footer li {
-  margin-bottom: 1rem;
-}
 footer .footer-row {
   display: flex;
   flex-direction: column;
@@ -161,23 +158,6 @@ footer .footer-row {
 }
 footer .footer-row_text {
   text-align: center;
-}
-@media only screen and (min-width: 480px) {
-  footer .footer-row_nav-blocs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  footer .footer-row_nav-blocs {
-    width: 1280px;
-  }
-}
-footer .footer-row_nav-blocs_column:nth-child(3) {
-  padding-top: 2rem;
 }
 footer .footer-row_social-logos {
   display: flex;
@@ -247,6 +227,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   align-items: center;
   padding: 4rem 2rem;
   position: relative;
+  width: 100%;
 }
 .banner::after {
   content: "";
@@ -262,6 +243,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   font-weight: 400;
   text-align: center;
   font-size: 1.5rem;
+  text-shadow: 0px 0px 1.5px #202020;
 }
 @media only screen and (min-width: 1920px) {
   .banner_h2 {
@@ -303,7 +285,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 }
 
 .banner2 {
-  background-image: url(../img/image-de-présentation-La-Chouette-Agence-2.bmp);
+  background-image: url(../img/image-de-présentation-La-Chouette-Agence-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -327,6 +309,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 .banner2_h2 {
   color: #F3976C;
   text-align: center;
+  text-shadow: 0px 0px 1.5px #202020;
 }
 
 /* overlay sur les images des articles */
@@ -372,6 +355,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   .banner_title {
     color: #F3976C;
     z-index: 1;
+    text-shadow: 0px 0px 2px #202020;
   }
 
   .div-presentation {
@@ -390,6 +374,8 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
     width: 90%;
     padding: 2rem 0 2rem 0;
   }
+
+  /* portfolio */
 }
 @media only screen and (min-width: 320px) and (min-width: 1280px) {
   .div-presentation_columns {
@@ -481,7 +467,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 }
 @media only screen and (min-width: 320px) {
   .banner2_contain {
-    background: rgba(151, 133, 97, 0.55);
+    background: rgba(116, 102, 75, 0.7);
     text-align: center;
     z-index: 1;
     margin: 3rem 0;
@@ -550,6 +536,152 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   }
   .div-presentation-posts_columns_column_posts_image {
     width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .scrollToTop {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    z-index: 500;
+    transition: all 0.3s ease-in-out;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .scrollToTop span {
+    margin-top: 6px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .showScrollTop {
+    font-size: 14px;
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 320px) {
+  a[data-lightbox] {
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 320px) {
+  a[data-lightbox]:hover::before {
+    content: "+";
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    font-weight: 100;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+  }
+}
+@media only screen and (min-width: 320px) {
+  a[data-lightbox]:hover img {
+    opacity: 0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+  }
+}
+@media only screen and (min-width: 320px) {
+  #lightbox-modal {
+    display: flex;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 320px) {
+  #lightbox-modal .modal-dialog {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto 0;
+  }
+}
+@media only screen and (min-width: 320px) {
+  #lightbox-modal .modal-dialog img {
+    max-height: 90vh;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .lightbox-caption {
+    padding: 20px;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 5px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .close-lightbox {
+    color: #FFF;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    line-height: 30px;
+    padding: 0 9px 5px;
+    opacity: 0.3;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .close-lightbox:hover,
+.next-lightbox:hover,
+.prev-lightbox:hover {
+    opacity: 1;
+    color: #FFF;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .next-lightbox,
+.prev-lightbox {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+    opacity: 0.4;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .next-lightbox {
+    padding: 6px 8px 1px 13px;
+    right: 25px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .prev-lightbox {
+    padding: 6px 13px 1px 10px;
+    left: 25px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .snapshot-lb .modal-body {
+    padding-bottom: 45px;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .snapshot-lb .lightbox-caption {
+    padding: 0;
+    color: rgba(0, 0, 0, 0.5);
+    background: none;
   }
 }
 

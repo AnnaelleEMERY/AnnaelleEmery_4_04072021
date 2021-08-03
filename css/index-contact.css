@@ -149,9 +149,6 @@ footer {
   align-items: center;
   padding: 1rem;
 }
-footer li {
-  margin-bottom: 1rem;
-}
 footer .footer-row {
   display: flex;
   flex-direction: column;
@@ -161,23 +158,6 @@ footer .footer-row {
 }
 footer .footer-row_text {
   text-align: center;
-}
-@media only screen and (min-width: 480px) {
-  footer .footer-row_nav-blocs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  footer .footer-row_nav-blocs {
-    width: 1280px;
-  }
-}
-footer .footer-row_nav-blocs_column:nth-child(3) {
-  padding-top: 2rem;
 }
 footer .footer-row_social-logos {
   display: flex;
@@ -247,6 +227,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   align-items: center;
   padding: 4rem 2rem;
   position: relative;
+  width: 100%;
 }
 .banner::after {
   content: "";
@@ -262,6 +243,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   font-weight: 400;
   text-align: center;
   font-size: 1.5rem;
+  text-shadow: 0px 0px 1.5px #202020;
 }
 @media only screen and (min-width: 1920px) {
   .banner_h2 {
@@ -303,7 +285,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 }
 
 .banner2 {
-  background-image: url(../img/image-de-présentation-La-Chouette-Agence-2.bmp);
+  background-image: url(../img/image-de-présentation-La-Chouette-Agence-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -327,6 +309,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 .banner2_h2 {
   color: #F3976C;
   text-align: center;
+  text-shadow: 0px 0px 1.5px #202020;
 }
 
 /* overlay sur les images des articles */
