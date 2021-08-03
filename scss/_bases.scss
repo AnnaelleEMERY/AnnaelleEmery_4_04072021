@@ -8,6 +8,7 @@ body{
 h1{
     color: $title-color;
     font-size: 1.5rem;
+    font-weight: 500;
 
     @media #{$breakpoint-TV-min} {
         font-size: 2.5rem;
@@ -17,9 +18,10 @@ h1{
 h2{
     color: $title-color;
     font-size: 1.5rem;
+    font-weight: 500;
 
     @media #{$breakpoint-TV-min} {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     @media #{$breakpoint-TV-max} {

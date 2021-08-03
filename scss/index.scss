@@ -35,13 +35,33 @@
                 width: 60%;
             }
 
-            &_last-text_text {
-                font-style: italic;
+            &_first-text-h2{
+                width: 60%;
             }
-            &_last-text_Maxime-Guibard{
-                font-size: 0.8rem;
-                font-weight: 400;
-                margin-top: -0.5rem;
+
+            .first-text-h2{
+                font-weight: 300;
+                font-size: 1.5rem;
+                color: $text;
+                margin-bottom: 1rem;
+
+                @media #{$breakpoint-TV-max} {
+                    font-size: 1.8rem;
+                }
+            }
+
+            &_last-text{
+                width: 60%;
+
+                &_text {
+                    font-style: italic;
+                }
+    
+                &_Maxime-Guibard{
+                    font-size: 0.8rem;
+                    font-weight: 400;
+                    margin-top: -0.5rem;
+                }
             }
 
             &_three-columns {
@@ -89,13 +109,13 @@
 
     .banner2_contain{
         background: $container-contact-color;
-        padding: 1.5rem;
         text-align: center;
         z-index: 1;
         margin: 3rem 0;
+        padding: 3rem;
 
         @media #{$breakpoint-desktop} {
-            width: 45%;
+            width: 30%;
         }
 
         &_text{
