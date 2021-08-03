@@ -37,6 +37,14 @@
     }
 }
 
+input:invalid{
+    border: 1px solid rgba(214, 7, 7, 0.8);
+}
+
+input:valid{
+    border: 1px solid rgb(131, 202, 23);
+}
+
 .contacts{
     margin-top: 2rem;
     display: flex;
