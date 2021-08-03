@@ -397,8 +397,8 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   }
 }
 
-input:invalid {
-  border: 1px solid rgba(214, 7, 7, 0.8);
+input {
+  border: 1px solid #575757;
 }
 
 input:valid {
