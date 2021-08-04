@@ -30,21 +30,29 @@
             align-items: center;
             text-align: center;
             width: 90%;
-            padding: 2rem 0 2rem 0;
+            padding: 0 0 2rem 0;
 
             @media #{$breakpoint-desktop} {
                 width: 60%;
             }
 
             &_first-text-h2{
-                width: 60%;
+                width: 90%;
+
+                @media #{$breakpoint-tablet-max} {
+                    width: 60%;
+                }
             }
 
             .first-text-h2{
                 font-weight: 300;
-                font-size: 1.5rem;
+                font-size: 1.3rem;
                 color: $text;
                 margin-bottom: 1rem;
+
+                @media #{$breakpoint-TV-mid} {
+                    font-size: 1.6rem;
+                }
 
                 @media #{$breakpoint-TV-max} {
                     font-size: 1.8rem;
@@ -52,7 +60,11 @@
             }
 
             &_last-text{
+                width: 90%;
+
+            @media #{$breakpoint-tablet-max} {
                 width: 60%;
+            }
 
                 &_text {
                     font-style: italic;
@@ -62,6 +74,10 @@
                     font-size: 0.8rem;
                     font-weight: 400;
                     margin-top: -0.5rem;
+
+                    @media #{$breakpoint-TV-mid} {
+                        font-size: 1.2rem;
+                    }
                 }
             }
 
@@ -113,10 +129,18 @@
         text-align: center;
         z-index: 1;
         margin: 3rem 0;
-        padding: 3rem;
+        padding: 1rem;
+
+        @media #{$breakpoint-tablet-min} {
+            padding: 2rem;
+        }
+
+        @media #{$breakpoint-tablet-max} {
+            padding: 3rem;
+        }
 
         @media #{$breakpoint-desktop} {
-            width: 30%;
+            width: 40%;
         }
 
         &_text{
@@ -144,7 +168,11 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            width: 90%;
+            width: 80%;
+
+            @media #{$breakpoint-tablet-mid} {
+                width: 80%;
+            }
 
             @media #{$breakpoint-desktop} {
                 width: 50%;
@@ -246,8 +274,8 @@
     }
     
     #lightbox-modal .modal-dialog img {
-        max-height: 90vh;
-        margin: 0 auto;
+        max-height: 100%;
+        margin: 0 0 1rem 0;
     }
     
     .lightbox-caption {
@@ -257,7 +285,7 @@
         position: absolute;
         left: 15px;
         right: 15px;
-        bottom: 5px;
+        bottom: 0px;
     }
     
     .close-lightbox {

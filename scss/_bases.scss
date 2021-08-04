@@ -49,7 +49,7 @@ p{
     }
 
     @media #{$breakpoint-TV-mid} {
-        font-size: 1.5rem;
+        font-size: 1.35rem;
     }
 
     @media #{$breakpoint-TV-max} {
@@ -135,10 +135,6 @@ header{
 footer{
     background-color: $primary-color;
     color: $footer-text;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 1rem;
 
     .footer-row{

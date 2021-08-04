@@ -57,7 +57,7 @@ p {
 }
 @media only screen and (min-width: 2000px) {
   p {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
   }
 }
 @media only screen and (min-width: 3000px) {
@@ -143,10 +143,6 @@ header .header-row_menu_ul li {
 footer {
   background-color: #F3976C;
   color: #FBE0D3;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 1rem;
 }
 footer .footer-row {
@@ -227,7 +223,6 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   align-items: center;
   padding: 4rem 2rem;
   position: relative;
-  width: 100%;
 }
 .banner::after {
   content: "";
@@ -372,7 +367,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
     align-items: center;
     text-align: center;
     width: 90%;
-    padding: 2rem 0 2rem 0;
+    padding: 0 0 2rem 0;
   }
 
   /* portfolio */
@@ -384,15 +379,25 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 }
 @media only screen and (min-width: 320px) {
   .div-presentation_columns_first-text-h2 {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 320px) and (min-width: 992px) {
+  .div-presentation_columns_first-text-h2 {
     width: 60%;
   }
 }
 @media only screen and (min-width: 320px) {
   .div-presentation_columns .first-text-h2 {
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #575757;
     margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 320px) and (min-width: 2000px) {
+  .div-presentation_columns .first-text-h2 {
+    font-size: 1.6rem;
   }
 }
 @media only screen and (min-width: 320px) and (min-width: 3000px) {
@@ -402,15 +407,29 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 }
 @media only screen and (min-width: 320px) {
   .div-presentation_columns_last-text {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 320px) and (min-width: 992px) {
+  .div-presentation_columns_last-text {
     width: 60%;
   }
+}
+@media only screen and (min-width: 320px) {
   .div-presentation_columns_last-text_text {
     font-style: italic;
   }
+}
+@media only screen and (min-width: 320px) {
   .div-presentation_columns_last-text_Maxime-Guibard {
     font-size: 0.8rem;
     font-weight: 400;
     margin-top: -0.5rem;
+  }
+}
+@media only screen and (min-width: 320px) and (min-width: 2000px) {
+  .div-presentation_columns_last-text_Maxime-Guibard {
+    font-size: 1.2rem;
   }
 }
 @media only screen and (min-width: 320px) {
@@ -471,12 +490,22 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
     text-align: center;
     z-index: 1;
     margin: 3rem 0;
+    padding: 1rem;
+  }
+}
+@media only screen and (min-width: 320px) and (min-width: 480px) {
+  .banner2_contain {
+    padding: 2rem;
+  }
+}
+@media only screen and (min-width: 320px) and (min-width: 992px) {
+  .banner2_contain {
     padding: 3rem;
   }
 }
 @media only screen and (min-width: 320px) and (min-width: 1280px) {
   .banner2_contain {
-    width: 30%;
+    width: 40%;
   }
 }
 @media only screen and (min-width: 320px) {
@@ -506,7 +535,12 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 90%;
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 320px) and (min-width: 768px) {
+  .div-presentation-posts_columns {
+    width: 80%;
   }
 }
 @media only screen and (min-width: 320px) and (min-width: 1280px) {
@@ -609,8 +643,8 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 }
 @media only screen and (min-width: 320px) {
   #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
-    margin: 0 auto;
+    max-height: 100%;
+    margin: 0 0 1rem 0;
   }
 }
 @media only screen and (min-width: 320px) {
@@ -621,7 +655,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    bottom: 0px;
   }
 }
 @media only screen and (min-width: 320px) {

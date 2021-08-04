@@ -57,7 +57,7 @@ p {
 }
 @media only screen and (min-width: 2000px) {
   p {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
   }
 }
 @media only screen and (min-width: 3000px) {
@@ -143,10 +143,6 @@ header .header-row_menu_ul li {
 footer {
   background-color: #F3976C;
   color: #FBE0D3;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 1rem;
 }
 footer .footer-row {
@@ -227,7 +223,6 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   align-items: center;
   padding: 4rem 2rem;
   position: relative;
-  width: 100%;
 }
 .banner::after {
   content: "";
