@@ -106,8 +106,12 @@ header{
             width: 80%;
         }
 
-        &_logo-and-title{
-            width: 15rem;
+        &_logo-and-title_logo{
+            width: 17rem;
+
+            @media #{$breakpoint-TV-max} {
+                width: 20rem;
+            }
         }
 
         &_menu{

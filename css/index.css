@@ -116,8 +116,13 @@ header .header-row {
     width: 80%;
   }
 }
-header .header-row_logo-and-title {
-  width: 15rem;
+header .header-row_logo-and-title_logo {
+  width: 17rem;
+}
+@media only screen and (min-width: 3000px) {
+  header .header-row_logo-and-title_logo {
+    width: 20rem;
+  }
 }
 header .header-row_menu {
   display: flex;
