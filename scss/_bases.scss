@@ -107,7 +107,15 @@ header{
         }
 
         &_logo-and-title_logo{
-            width: 17rem;
+            width: 12rem;
+
+            @media #{$breakpoint-tablet-min} {
+                width: 15rem;
+            }
+
+            @media #{$breakpoint-TV-mid} {
+                width: 17rem;
+            }
 
             @media #{$breakpoint-TV-max} {
                 width: 20rem;
@@ -118,17 +126,27 @@ header{
             display: flex;
             flex-direction: row;
             padding: 0;
+
             &_ul{
                 display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
+                flex-direction: column;
                 align-content: center;
-                margin: 0;
+                margin: 0 1rem 0 0;
+
+                @media #{$breakpoint-tablet-mid} {
+                    margin: 0 1.5rem 0 0;
+                    flex-direction: row;
+                }
+
                 li{
                     margin-bottom: 1rem;
 
                     @media #{$breakpoint-tablet-min} {
-                        margin: 0 1.5rem 0 0;
+                        margin: 0 2rem 0 0;
+                    }
+
+                    @media #{$breakpoint-TV-mid} {
+                        margin: 0 3rem 0 0;
                     }
                 }
             }
