@@ -196,13 +196,13 @@ footer .footer-row_social-logos_bloc-logo_logo {
   font-size: 2rem;
   color: #74664b;
 }
+footer .footer-row_social-logos_bloc-logo_logo:hover {
+  color: #000000;
+}
 @media only screen and (min-width: 480px) {
   footer .footer-row_social-logos_bloc-logo_logo {
     margin-right: 2rem;
   }
-}
-footer .footer-row_social-logos_bloc-logo_logo:hover {
-  color: #ffffff;
 }
 
 .button-primary {

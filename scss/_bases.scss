@@ -184,16 +184,14 @@ footer{
             &_bloc-logo_logo{
                 font-size: 2rem;
                 color: $footer-text;
-
+                
                 &:hover{
-                    color: black;
+                    color: #000000;
                 }
 
                 @media #{$breakpoint-tablet-min} {
                     margin-right: 2rem;
                 }
-
-                
             }
         }
     }
