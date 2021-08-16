@@ -207,7 +207,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 
 .button-primary {
   border: none;
-  color: #ffffff;
+  color: #74664b;
   background-color: #F6AF8E;
   margin: 1rem 0 0 0;
   padding: 0.8rem 1.6rem 0.8rem 1.6rem;
@@ -231,7 +231,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 .button-primary:hover {
   cursor: pointer;
   background-color: #c27956;
-  color: #ffffff;
+  color: #74664b;
   text-decoration: none;
   box-shadow: 0px 0px 15px -7px #000000;
 }
