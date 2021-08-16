@@ -166,7 +166,7 @@ header .header-row_menu_ul li {
 }
 
 footer {
-  background-color: #FDF2EC;
+  background-color: #ffffff;
   color: #74664b;
   padding: 1rem;
 }
@@ -208,7 +208,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 .button-primary {
   border: none;
   color: #74664b;
-  background-color: #FDF2EC;
+  background-color: #ffffff;
   margin: 1rem 0 0 0;
   padding: 0.8rem 1.6rem 0.8rem 1.6rem;
   border-radius: 50px;
@@ -259,7 +259,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   z-index: 0;
 }
 .banner_h2 {
-  color: #FDF2EC;
+  color: #ffffff;
   z-index: 1;
   font-weight: 400;
   text-align: center;
@@ -278,7 +278,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 }
 .banner_text {
   text-align: center;
-  color: #FDF2EC;
+  color: #ffffff;
   text-shadow: 0px 0px 5px black;
 }
 
@@ -329,7 +329,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   z-index: 0;
 }
 .banner2_h2 {
-  color: #FDF2EC;
+  color: #ffffff;
   text-align: center;
   text-shadow: 0px 0px 1.5px #202020;
 }
