@@ -2,7 +2,7 @@
 .button-primary{
     border: none;
     color: $white-color;
-    background-color: $primary-color;
+    background-color: $button-background;
     margin: 1rem 0 0 0;
     padding: 0.8rem 1.6rem 0.8rem 1.6rem;
     border-radius: 50px;
@@ -120,7 +120,7 @@
     }
 
     &_h2{
-        color: $primary-color;
+        color: #DADFE1;
         text-align: center;
         text-shadow: 0px 0px 1.5px $text-shadow;
     }

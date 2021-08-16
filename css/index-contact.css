@@ -166,7 +166,7 @@ header .header-row_menu_ul li {
 }
 
 footer {
-  background-color: #F3976C;
+  background-color: #C15800;
   color: #FBE0D3;
   padding: 1rem;
 }
@@ -208,7 +208,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 .button-primary {
   border: none;
   color: #ffffff;
-  background-color: #F3976C;
+  background-color: #C15800;
   margin: 1rem 0 0 0;
   padding: 0.8rem 1.6rem 0.8rem 1.6rem;
   border-radius: 50px;
@@ -327,7 +327,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   z-index: 0;
 }
 .banner2_h2 {
-  color: #F3976C;
+  color: #DADFE1;
   text-align: center;
   text-shadow: 0px 0px 1.5px #202020;
 }
