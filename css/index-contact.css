@@ -166,8 +166,8 @@ header .header-row_menu_ul li {
 }
 
 footer {
-  background-color: #C15800;
-  color: #FBE0D3;
+  background-color: #F6AF8E;
+  color: #74664b;
   padding: 1rem;
 }
 footer .footer-row {
@@ -194,7 +194,7 @@ footer .footer-row_social-logos {
 }
 footer .footer-row_social-logos_bloc-logo_logo {
   font-size: 2rem;
-  color: #FBE0D3;
+  color: #74664b;
 }
 @media only screen and (min-width: 480px) {
   footer .footer-row_social-logos_bloc-logo_logo {
@@ -208,7 +208,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 .button-primary {
   border: none;
   color: #ffffff;
-  background-color: #C15800;
+  background-color: #F6AF8E;
   margin: 1rem 0 0 0;
   padding: 0.8rem 1.6rem 0.8rem 1.6rem;
   border-radius: 50px;
@@ -259,7 +259,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   z-index: 0;
 }
 .banner_h2 {
-  color: #F3976C;
+  color: #F6AF8E;
   font-weight: 400;
   text-align: center;
   font-size: 1.5rem;
@@ -277,7 +277,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 }
 .banner_text {
   text-align: center;
-  color: #F3976C;
+  color: #F6AF8E;
 }
 
 .square {
@@ -301,7 +301,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
 }
 
 .square:hover {
-  border: 2px solid #FBE0D3;
+  border: 2px solid #74664b;
 }
 
 .banner2 {
@@ -327,7 +327,7 @@ footer .footer-row_social-logos_bloc-logo_logo:hover {
   z-index: 0;
 }
 .banner2_h2 {
-  color: #DADFE1;
+  color: #F6AF8E;
   text-align: center;
   text-shadow: 0px 0px 1.5px #202020;
 }
